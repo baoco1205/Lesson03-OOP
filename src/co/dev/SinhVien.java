@@ -12,5 +12,13 @@ public class SinhVien {
 		this.toan = toan;
 		this.ly = ly;
 		this.hoa = hoa;
+			}
+public double diemTrungBinh(double toan, double ly, double hoa) {
+	return (toan + ly + hoa) / 3;
+		}
+public void show() {
+	System.out.println(name+":"+diemTrungBinh(toan, ly, hoa));
 	}
 }
+
+
